@@ -6,6 +6,7 @@ Release:	1
 License:	BSD
 Group:		X11/Applications/Graphics
 Source0:	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
+# Source0-md5:	ea6a26678b677f885d98ccbc0ec01a41
 Patch0:		%{name}-ac.patch
 URL:		http://linuxbrit.co.uk/scrot/
 BuildRequires:	autoconf
