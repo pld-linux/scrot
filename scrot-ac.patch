@@ -1,0 +1,14 @@
+diff -uNr scrot-0.7-orig/configure.ac scrot-0.7/configure.ac
+--- scrot-0.7-orig/configure.ac	Tue Feb 25 14:13:51 2003
++++ scrot-0.7/configure.ac	Tue Mar 25 13:40:05 2003
+@@ -25,8 +25,8 @@
+ AC_SUBST(GIBLIB_LIBS)
+ AC_SUBST(GIBLIB_CFLAGS)
+ 
+-AC_CHECK_FUNC(getopt_long,,[LIBOBJS="$LIBOBJS getopt.o getopt1.o"])
+-AC_SUBST(LIBOBJS)
++AC_CHECK_FUNC(getopt_long,,[AC_LIBOBJ="$AC_LIBOBJ getopt.o getopt1.o"])
++AC_SUBST(AC_LIBOBJ)
+ 
+ AC_CONFIG_FILES([Makefile \
+ scrot.spec \
