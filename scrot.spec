@@ -8,6 +8,8 @@ Group:		X11/Applications/Graphics
 Source0:	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
 Patch0:		%{name}-ac.patch
 URL:		http://linuxbrit.co.uk/scrot/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	giblib-devel >= 1.2.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
