@@ -12,6 +12,7 @@ URL:		http://linuxbrit.co.uk/scrot/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	giblib-devel >= 1.2.3
+BuildRequires:  imlib2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
