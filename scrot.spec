@@ -1,5 +1,5 @@
 Summary:	Screen-shot capture using Imlib 2
-Summary(pl.UTF-8):   Zrzucanie ekranów przy użyciu Imlib2
+Summary(pl.UTF-8):	Zrzucanie ekranów przy użyciu Imlib2
 Name:		scrot
 Version:	0.8
 Release:	1
