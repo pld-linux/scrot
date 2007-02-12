@@ -1,5 +1,5 @@
 Summary:	Screen-shot capture using Imlib 2
-Summary(pl):	Zrzucanie ekranów przy u¿yciu Imlib2
+Summary(pl.UTF-8):   Zrzucanie ekranÃ³w przy uÅ¼yciu Imlib2
 Name:		scrot
 Version:	0.8
 Release:	1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A nice and straightforward screen capture utility implementing the
 dynamic loaders of imlib2.
 
-%description -l pl
-Mi³e i ³atwe w u¿yciu narzêdzie do pobierania zrzutów ekranu
-wykorzystuj±ce dynamiczne do³±czanie z imlib2.
+%description -l pl.UTF-8
+MiÅ‚e i Å‚atwe w uÅ¼yciu narzÄ™dzie do pobierania zrzutÃ³w ekranu
+wykorzystujÄ…ce dynamiczne doÅ‚Ä…czanie z imlib2.
 
 %prep
 %setup -q
